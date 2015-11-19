@@ -1,5 +1,5 @@
 # Summary
-Overcooked CMS backed isomorphic web app to act as my portfolio website.
+Overcooked [CMS backed](https://github.com/ehyland/eamon-cms) isomorphic web app to act as my portfolio website.
 
 ## Technologies Used:
 - NodeJS (v4.2.1)
