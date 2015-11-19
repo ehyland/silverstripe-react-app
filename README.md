@@ -1,6 +1,7 @@
+# Summary
 Overcooked CMS backed isomorphic web app to act as my portfolio website.
 
-Summary of technologies used:
+## Technologies Used:
 - NodeJS (v4.2.1)
 - ReactJS
 - Fluxible
