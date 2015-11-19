@@ -1,0 +1,11 @@
+# Misc
+.DS_Store
+/*.log
+/*.zip
+
+# Modules
+build/
+node_modules/
+
+# Private
+src/configs/keys.js

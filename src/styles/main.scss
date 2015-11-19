@@ -1,0 +1,78 @@
+@import "includes/bootstrap-4.0.0-alpha/scss/bootstrap-reboot";
+@import "includes/bootstrap-4.0.0-alpha/scss/bootstrap-grid";
+
+$animation-time: 0.2s;
+
+// This is a test
+body{
+    background: #fff;
+}
+
+// Header
+.Header{
+    margin-bottom: 0.5rem;
+
+    &-siteTitle{
+        text-align: center;
+    }
+    &-homeLink{
+        font-size: 2.8rem;
+        color: #000;
+        text-decoration: none;
+
+        &:hover{
+            color: lighten(#000, 20);
+            text-decoration: none;
+        }
+        &:active{
+            text-decoration: none;
+        }
+    }
+}
+
+.Nav{
+    margin-bottom: 1rem;
+    &-list{
+        padding: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    &-listItem{
+        text-align: center;
+    }
+    &-link{
+        display: inline-block;
+        font-size: 1.2rem;
+        color: #000;
+        background: #fff;
+        text-transform: uppercase;
+        border: 2px solid #000;
+        padding: 0.4rem 2rem;
+        transform: translate3d(0, 0, 0);
+        transition:
+            background $animation-time ease-out,
+            border $animation-time ease-out,
+            color $animation-time ease-out,
+            transform $animation-time ease-out,
+            padding $animation-time ease-out;
+
+        &:hover{
+            color: #fff;
+            background: darken(#fff, 75);
+            border-color: darken(#fff, 75);
+            text-decoration: none;
+        }
+
+        &:active,
+        &.active{
+            text-decoration: none;
+            color: #fff;
+            background: #000;
+        }
+
+        .CMSPage--homePage &{
+            transform: translate3d(0, 10rem, 0);
+            padding: 3rem 4rem;
+        }
+    }
+}
