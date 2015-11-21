@@ -1,14 +1,22 @@
 {
-  "name": "simple-fluxible",
+  "name": "eamon-app",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehyland/eamon-app.git"
+  },
+  "author": {
+    "name": "Eamon Hyland",
+    "email": "ehyland90@gmail.com"
+  },
+  "description": "Portfolio website",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development node ./index.js",
     "start": "NODE_ENV=production node ./index.js",
     "build": "webpack --config webpack/prod.config.js"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer-loader": "^3.1.0",
