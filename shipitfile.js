@@ -2,6 +2,7 @@ var path = require('path');
 module.exports = function (shipit) {
 
     require('shipit-deploy')(shipit);
+    require('shipit-nvm')(shipit);
     require('shipit-npm')(shipit);
 
     shipit.initConfig({
@@ -15,7 +16,7 @@ module.exports = function (shipit) {
             deleteOnRollback: false,
             shallowClone: true,
             npm: {
-                remote: false,
+                remote: true,
                 cmd: ['build']
             }
         },

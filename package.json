@@ -58,6 +58,7 @@
     "shipit-cli": "^1.4.0",
     "shipit-deploy": "^2.0.0",
     "shipit-npm": "^0.2.0",
+    "shipit-nvm": "0.0.6",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   }
