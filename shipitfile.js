@@ -18,6 +18,10 @@ module.exports = function (shipit) {
             npm: {
                 remote: true,
                 cmd: ['build']
+            },
+            nvm: {
+                remote: true,
+                sh: '~/.nvm/nvm.sh'
             }
         },
         live: {
