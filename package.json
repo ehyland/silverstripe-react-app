@@ -14,7 +14,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development node ./index.js",
-    "start": "NODE_ENV=production node ./index.js",
+    "start": "NODE_ENV=production PORT=80 node ./index.js",
     "build": "webpack --config webpack/prod.config.js"
   },
   "license": "ISC",
