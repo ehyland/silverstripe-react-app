@@ -21,7 +21,10 @@ module.exports = function (shipit) {
             },
             nvm: {
                 remote: true,
-                sh: '~/.nvm/nvm.sh'
+                sh: '~/.nvm/nvm.sh',
+                triggerEvents: {
+                    aliasDefault: false
+                }
             }
         },
         live: {
