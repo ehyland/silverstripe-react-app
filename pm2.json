@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name"        : "eamon-app",
+    "script"      : "index.js",
+    "watch"       : false,
+    "instances"   : 1,
+    "env": {
+        "NODE_ENV": "production",
+        "PORT": "80"
+    }
+  }]
+}
